@@ -1,0 +1,65 @@
+
+body{
+
+    background-color: white;
+}
+
+.container{
+    margin-top: 50px;
+    border:  2px solid;
+    width: 400px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 40px;
+    border: 8px solid black;
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numero{
+
+    font-size: 200px;
+}
+
+.botones {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+  }
+  
+  .botones:hover {
+    background-color: white;
+    color: black;
+}
+  
